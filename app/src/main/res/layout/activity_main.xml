@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context="com.example.admin.happybirthday.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happpyyy birthday to you...."
+        android:paddingTop="20dp"
+        android:textSize="24sp"
+        android:textColor="#FFEE58"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/img1"
+        android:scaleType="fitEnd"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/imagess"
+        android:src="@drawable/cynthia"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:paddingRight="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="From your Friend!"
+        android:paddingLeft="200dp"
+        android:textSize="15sp"
+        android:textColor="#FFEE58"
+        android:textStyle="italic" />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
